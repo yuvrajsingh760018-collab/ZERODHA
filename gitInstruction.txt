@@ -1,0 +1,46 @@
+#Weekly Start (New Branch)
+
+# Switch to main branch
+git checkout main
+
+# Pull latest changes
+git pull origin main
+
+# Create new branch for the week
+git checkout -b weekX   # replace X with week number
+
+
+
+
+#Daily Routine
+#Before coding
+# Make sure you are on the correct weekly branch
+git checkout weekX
+
+# Pull latest changes
+git pull origin weekX
+
+#After coding
+# Stage all changes
+git add .
+
+# Commit with clear message
+git commit -m "Day Y: your message here"
+
+# Push to GitHub
+git push origin weekX
+
+
+#End of Week (Merge to Main)
+
+# Switch to main
+git checkout main
+
+# Pull latest changes
+git pull origin main
+
+# Merge weekly branch
+git merge weekX
+
+# Push to GitHub
+git push origin main
