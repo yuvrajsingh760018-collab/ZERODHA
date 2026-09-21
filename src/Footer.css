@@ -1,0 +1,38 @@
+footer {
+  margin-top: 80px;
+  padding-bottom: 50px;
+}
+
+footer a {
+  color: #387ed1;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 2;
+}
+
+footer a:hover {
+  color: #424242;
+}
+
+.footer-heading {
+  font-size: 16px;
+  color: #424242;
+  margin-bottom: 15px;
+}
+
+.legal-section {
+  margin-top: 60px;
+  padding-top: 30px;
+  border-top: 1px solid #eeeeee;
+}
+
+.legal-section p {
+  color: #9b9b9b;
+  font-size: 11px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.legal-section a {
+  font-size: 11px;
+}
